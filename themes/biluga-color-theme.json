@@ -293,6 +293,9 @@
     "titleBar.inactiveForeground": "#4a5568",
     "tree.indentGuidesStroke": "#2d3748",
     "widget.shadow": "#000000"
+    //"editor.inactiveSelectionBackground": "#71809628",
+    //"editorActiveLineNumber.foreground": "#c6c6c6",
+    //"list.dropBackground": "#71809620"
   },
   "tokenColors": [
     {
@@ -338,7 +341,8 @@
         "storage.type",
         "storage.modifier",
         "support.constant.media",
-        "entity.name.tag"
+        "entity.name.tag",
+        "meta.embedded variable.other.global"
       ],
       "settings": {
         "fontStyle": "",
@@ -349,7 +353,8 @@
       "scope": [
         "keyword.control",
         "meta.tag.structure entity.name.tag",
-        "meta.method.declaration meta.var storage.type"
+        "meta.method.declaration meta.var storage.type",
+        "variable.other.global punctuation.definition.variable"
       ],
       "settings": {
         "fontStyle": "",
@@ -368,7 +373,8 @@
         "variable.other.constant",
         "entity.other.attribute-name",
         "meta.function-call variable.other.object",
-        "support.function.builtin"
+        "support.function.builtin",
+        "meta.embedded variable.other"
       ],
       "settings": {
         "foreground": "#FAF089"
