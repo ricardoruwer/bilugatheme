@@ -1,0 +1,26 @@
+{
+  "name": "bilugatheme",
+  "publisher": "ricardoruwer",
+  "displayName": "BilugaTheme",
+  "description": "Biluga Color Theme",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ricardoruwer/bilugatheme"
+  },
+  "engines": {
+    "vscode": "^1.38.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "biluga",
+        "uiTheme": "vs-dark",
+        "path": "./themes/biluga-color-theme.json"
+      }
+    ]
+  }
+}
