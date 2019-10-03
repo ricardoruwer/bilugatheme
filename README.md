@@ -8,14 +8,13 @@ You can install it through the [VSCode Marketplace](https://marketplace.visualst
 
 ## Activation
 
-Press `CMD + SHIFT + P` (macOS) or `CTRL + SHIFT + P` (Linux) and search for `Preferences: Color Scheme`, and then select `Biluga Theme` on the list.
+Press `CMD + SHIFT + P` (macOS) or `CTRL + SHIFT + P` (Linux) and search for `Preferences: Color Scheme`, and then select `BilugaTheme` on the list.
 
 ## Screenshots
 
 It's just a simple screenshot from an Elixir code. You have to try the theme to see all the colors.
 
 ![Elixir](https://i.imgur.com/jPiyRuf.png)
-
 
 ## Some cool settings
 
