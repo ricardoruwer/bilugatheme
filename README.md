@@ -16,6 +16,21 @@ It's just a simple screenshot from an Elixir code. You have to try the theme to 
 
 ![Elixir](https://i.imgur.com/jPiyRuf.png)
 
+
+## Some cool settings
+
+```js
+{
+  // ...
+  "editor.fontFamily": "OperatorMono-Book",
+  "editor.lineHeight": 28,
+  // https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+  "workbench.iconTheme": "material-icon-theme",
+  // And some other I use, you can see here: https://gist.github.com/ricardoruwer/b67986152b239fb27ffb488d156de7d3#file-settings-json
+  // ...
+}
+```
+
 ## Override colors
 
 You can override some of the theme colors if you want, to do that you can follow [this doc](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme).
@@ -44,20 +59,6 @@ You can override some of the theme colors if you want, to do that you can follow
       // ...
     ]
   }
-  // ...
-}
-```
-
-## Some other cool settings
-
-```js
-{
-  // ...
-  "editor.fontFamily": "OperatorMono-Book",
-  "editor.lineHeight": 28,
-  // https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
-  "workbench.iconTheme": "material-icon-theme",
-  // And some other I use, you can see here: https://gist.github.com/ricardoruwer/b67986152b239fb27ffb488d156de7d3#file-settings-json
   // ...
 }
 ```
