@@ -22,7 +22,7 @@ You can override some of the theme colors if you want, to do that you can follow
 
 ### Example
 
-```json
+```js
 {
   // ...
   "workbench.colorCustomizations": {
@@ -50,7 +50,7 @@ You can override some of the theme colors if you want, to do that you can follow
 
 ## Some other cool settings
 
-```json
+```js
 {
   // ...
   "editor.fontFamily": "OperatorMono-Book",
