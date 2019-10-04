@@ -40,7 +40,7 @@
     "editor.focusedStackFrameHighlightBackground": "#68d39150",
     "editor.foreground": "#edf2f7",
     "editor.hoverHighlightBackground": "#2b6cb040",
-    "editor.lineHighlightBackground": "#00000040",
+    "editor.lineHighlightBackground": "#00000030",
     "editor.lineHighlightBorder": "#00000000",
     "editor.rangeHighlightBackground": "#ffffff10",
     "editor.selectionBackground": "#71809650",
@@ -523,6 +523,24 @@
       "scope": "token.debug-token",
       "settings": {
         "foreground": "#b267e6"
+      }
+    },
+    {
+      "scope": ["support.class"],
+      "settings": {
+        "foreground": "#FAF089"
+      }
+    },
+    {
+      "scope": ["meta.function-call entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#E9D8FD"
+      }
+    },
+    {
+      "scope": ["meta.definition.function entity.name.function"],
+      "settings": {
+        "foreground": "#B794F4"
       }
     }
   ]
