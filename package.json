@@ -3,6 +3,7 @@
   "publisher": "ricardoruwer",
   "displayName": "BilugaTheme",
   "description": "Biluga Color Theme",
+  "icon": "icon.png",
   "version": "0.2.1",
   "repository": {
     "type": "git",
