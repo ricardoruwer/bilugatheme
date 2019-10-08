@@ -542,6 +542,40 @@
       "settings": {
         "foreground": "#B794F4"
       }
+    },
+    {
+      "scope": ["constant.language.symbol.hashkey"],
+      "settings": {
+        "foreground": "#BEE3F8"
+      }
+    },
+    {
+      "scope": [
+        "variable.language",
+        "support.function.core",
+        "variable.parameter.function"
+      ],
+      "settings": {
+        "foreground": "#EDF2F7"
+      }
+    },
+    {
+      "scope": ["meta.embedded meta.function-call support.function.core"],
+      "settings": {
+        "foreground": "#FBB6CE"
+      }
+    },
+    {
+      "scope": ["meta.function-call support.function.core"],
+      "settings": {
+        "foreground": "#E9D8FD"
+      }
+    },
+    {
+      "scope": ["constant.language.symbol"],
+      "settings": {
+        "foreground": "#C6F6D5"
+      }
     }
   ]
 }
