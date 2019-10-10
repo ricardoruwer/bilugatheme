@@ -14,7 +14,7 @@ Press `CMD + SHIFT + P` (macOS) or `CTRL + SHIFT + P` (Linux) and search for `Pr
 
 It's just a simple screenshot from an Elixir code. You have to try the theme to see all the colors.
 
-![Elixir](https://i.imgur.com/jPiyRuf.png)
+![Elixir](https://ricardoruwer.s3.amazonaws.com/Rh0M776S.png)
 
 ## Some cool settings
 
