@@ -123,6 +123,7 @@
     "gitDecoration.modifiedResourceForeground": "#7f9cf5",
     "gitDecoration.submoduleResourceForeground": "#90cdf4",
     "gitDecoration.untrackedResourceForeground": "#9ae6b4",
+    "icon.foreground": "#718096",
     "imagePreview.border": "#71809650",
     "input.background": "#2d3748",
     "input.border": "#000000",
@@ -170,6 +171,7 @@
     "merge.incomingContentBackground": "#4299e140",
     "merge.incomingHeaderBackground": "#4299e180",
     "minimap.findMatchHighlight": "#f6ad55",
+    "minimap.selectionHighlight": "#000000",
     "notificationCenterHeader.background": "#000000",
     "notificationLink.foreground": "#81e6d9",
     "notifications.background": "#000000",
@@ -295,7 +297,12 @@
     "widget.shadow": "#000000"
     //"editor.inactiveSelectionBackground": "#71809628",
     //"editorActiveLineNumber.foreground": "#c6c6c6",
-    //"list.dropBackground": "#71809620"
+    //"editorLightBulb.foreground": "#ffcc00",
+    //"editorLightBulbAutoFix.foreground": "#75beff",
+    //"list.dropBackground": "#71809620",
+    //"notificationsErrorIcon.foreground": "#f48771",
+    //"notificationsInfoIcon.foreground": "#75beff",
+    //"notificationsWarningIcon.foreground": "#ffcc00"
   },
   "tokenColors": [
     {
@@ -376,7 +383,8 @@
         "header",
         "markup.heading",
         "meta.preprocessor",
-        "meta.diff.header"
+        "meta.diff.header",
+        "punctuation.definition.variable"
       ],
       "settings": {
         "foreground": "#63B3ED"
@@ -473,11 +481,7 @@
       }
     },
     {
-      "scope": [
-        "entity.name.function",
-        "entity.name.section.group-title",
-        "variable.other.readwrite"
-      ],
+      "scope": ["entity.name.function", "entity.name.section.group-title"],
       "settings": {
         "foreground": "#d9a9ff"
       }
@@ -557,9 +561,9 @@
       }
     },
     {
-      "scope": "punctuation.definition.variable",
+      "scope": ["variable.other.readwrite"],
       "settings": {
-        "foreground": "#9F7AEA"
+        "foreground": "#BEE3F8"
       }
     }
   ]
