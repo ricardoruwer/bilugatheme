@@ -61,3 +61,10 @@ You can override some of the theme colors if you want, to do that you can follow
   // ...
 }
 ```
+
+## Publish extension
+You can use the [`vsce`](https://www.npmjs.com/package/vsce) extension to publish the extension on the Marketplace, example:
+```bash
+vsce publish 1.1.4
+```
+Click [here](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) to know more.
