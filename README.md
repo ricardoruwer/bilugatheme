@@ -8,7 +8,7 @@ You can install it through the [VSCode Marketplace](https://marketplace.visualst
 
 ## Activation
 
-Press `CMD + SHIFT + P` (macOS) or `CTRL + SHIFT + P` (Linux) and search for `Preferences: Color Scheme`, and then select `BilugaTheme` on the list.
+Press `⌘K ⌘T` and select `BilugaTheme` on the list.
 
 ## Screenshots
 
@@ -33,6 +33,7 @@ It's just a simple screenshot from an Elixir code. You have to try the theme to 
 ## Override colors
 
 You can override some of the theme colors if you want, to do that you can follow [this doc](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme).
+To know the name of the textmate scope, press `⌃ ⇧ P`.
 
 ### Example
 
